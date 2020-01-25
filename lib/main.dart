@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[50],
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text("Overview"),
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             "Burj Khalifa",
                             style: TextStyle(
-                              color: Colors.black,
+                              color: Colors.red[900],
                               fontSize: 35.0,
                               fontFamily: 'Girassol',
                             ),
@@ -220,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: <Widget>[
                           Icon(
                             Icons.access_time,
-                            color: Colors.black,
+                            color: Colors.white,
                             size: 30.0,
                           ),
                           Container(
