@@ -220,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: <Widget>[
                           Icon(
                             Icons.access_time,
-                            color: Colors.white,
+                            color: Colors.black,
                             size: 30.0,
                           ),
                           Container(
